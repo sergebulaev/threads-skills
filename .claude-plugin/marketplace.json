@@ -1,0 +1,39 @@
+{
+  "name": "threads-skills",
+  "owner": {
+    "name": "Serge Bulaev",
+    "url": "https://github.com/sergebulaev"
+  },
+  "metadata": {
+    "description": "Claude Code and Codex skills for Threads (Meta) growth: single-post and multi-post thread writing, AI-tell humanizer with bundled pre-publish audit, viral hook extraction, reply and quote drafting, and weekly content planning. Posts and threads publish through the Publora API."
+  },
+  "plugins": [
+    {
+      "name": "threads-skills",
+      "source": "./",
+      "description": "Bundle of 5 Threads (Meta) marketing skills for Claude Code and Codex with Threads-native hook formulas, single-post and multi-post thread writing, a unified humanizer (rewrite plus `--mode audit` pre-publish check), viral hook extraction, reply and quote drafting, and a weekly content planner. Posts and threads ship via Publora, which auto-splits long content into a connected multi-post thread.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Serge Bulaev",
+        "url": "https://github.com/sergebulaev"
+      },
+      "homepage": "https://github.com/sergebulaev/threads-skills",
+      "license": "MIT",
+      "keywords": [
+        "threads",
+        "meta-threads",
+        "marketing",
+        "social-media",
+        "content-creation",
+        "claude-skills",
+        "codex-skills",
+        "anthropic",
+        "ai-agents",
+        "personal-branding",
+        "instagram-threads",
+        "viral-content"
+      ],
+      "category": "productivity"
+    }
+  ]
+}

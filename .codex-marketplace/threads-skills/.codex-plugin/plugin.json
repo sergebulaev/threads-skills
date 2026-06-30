@@ -1,0 +1,44 @@
+{
+  "name": "threads-skills",
+  "description": "5 Claude Code and Codex skills for Threads (Meta) marketing: single-post and multi-post thread writing, AI-tell humanizer with pre-publish audit, viral hook extraction, reply and quote drafting, and weekly content planning. Publora is the default publish layer for Threads posts and threads.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Serge Bulaev",
+    "url": "https://github.com/sergebulaev"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/sergebulaev/threads-skills",
+  "repository": "https://github.com/sergebulaev/threads-skills",
+  "keywords": [
+    "threads",
+    "meta-threads",
+    "marketing",
+    "social-media",
+    "content",
+    "claude-skills",
+    "codex-skills",
+    "viral",
+    "thread",
+    "instagram-threads"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Threads (Meta) Skills",
+    "shortDescription": "Threads (Meta) marketing skills for Claude Code and Codex.",
+    "longDescription": "A bundle of 5 Threads (Meta) marketing skills for Claude Code and Codex: single-post and multi-post thread writing, humanizing, hook extraction, reply and quote drafting, and content planning.",
+    "developerName": "Serge Bulaev",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/sergebulaev/threads-skills",
+    "defaultPrompt": [
+      "Draft a Threads post from my notes.",
+      "Turn this into a multi-post Threads thread.",
+      "Plan a week of Threads content."
+    ],
+    "brandColor": "#000000"
+  }
+}
