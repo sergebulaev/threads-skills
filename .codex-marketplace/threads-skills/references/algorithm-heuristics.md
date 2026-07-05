@@ -5,6 +5,20 @@ documented ranking principles, the Threads API publishing limits, and observed
 creator data. Numbers marked "reported" are community-measured, not officially
 confirmed.
 
+## Contents
+
+- Signal weights (relative reach impact)
+- The first 30-60 minutes
+- Reach suppressors (avoid)
+- Reach amplifiers
+- Character and format limits
+- Threads (multi-post)
+- Rate limits
+- Reply vs quote post
+- Timing
+- Reposts are the underrated lever
+- Pre-publish checklist
+
 ## Signal weights (relative reach impact)
 
 Threads' ranker predicts engagement and surfaces posts from accounts you and

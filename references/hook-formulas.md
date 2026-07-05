@@ -23,6 +23,23 @@ then sentence boundaries. Unlike X, Threads does NOT add `(1/N)` markers by
 default, so you can write a thread as flowing prose or break it yourself with
 `---` separators.
 
+## Contents
+
+- T1 - Warm Contrarian
+- T2 - Data-Point Hook
+- T3 - Build-in-Public Confession
+- T4 - Quote-Post Add-Value
+- T5 - Mini-List Post
+- T6 - Relatable Cold-Open
+- T7 - Listicle-Thread Promise
+- T8 - Story Thread
+- T9 - Curiosity-Gap Opener
+- T10 - How-I Teardown Thread
+- Engagement-goal split
+- Single post vs thread: pick the container first
+- Hook micro-rules (Threads-specific)
+- Never do
+
 ---
 
 ## T1 - Warm Contrarian
