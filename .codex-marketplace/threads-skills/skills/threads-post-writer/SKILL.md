@@ -29,6 +29,9 @@ Single-post shapes (T1-T6):
 | T4 | Quote-Post Add-Value | quotes | adding a layer to someone else's take (quote post) |
 | T5 | Mini-List Post | reposts | a scannable list that fits in one post |
 | T6 | Relatable Cold-Open | likes | a specific shared moment, no setup |
+| T11 | First-Person Status Flex | replies | a flat status or milestone, then a counterintuitive pivot |
+| T12 | Permission Reframe | quotes | "Most {group} DON'T NEED {thing}, they need {permission}" |
+| T13 | Copy-Swap Micro-Lesson | reposts | one before/after swap: weak version, then strong version |
 
 Thread shapes (T7-T10):
 
@@ -39,7 +42,10 @@ Thread shapes (T7-T10):
 | T9 | Curiosity-Gap Opener | replies | a surprising result, mechanism withheld |
 | T10 | How-I Teardown | reposts | a repeatable process you ran yourself |
 
-Full skeletons in `../../references/hook-formulas.md`.
+Full skeletons in `../../references/hook-formulas.md`. T11-T13 were added from a
+318-post corpus pull (July 2026): the status flex, permission reframe, and copy
+swap topped the aspirational-warm Threads feed. They are strong hypotheses to
+test, anchored on small-account examples, not yet follower-normalized.
 
 ### Pick by goal first
 

@@ -1,4 +1,4 @@
-# 10 Threads (Meta) Hook Formulas - 2026 Edition
+# 13 Threads (Meta) Hook Formulas - 2026 Edition
 
 Threads rewards a warmer shape than X. The text-first mechanics are the same:
 the first line has to land, because the feed truncates long posts with a "more"
@@ -35,6 +35,9 @@ default, so you can write a thread as flowing prose or break it yourself with
 - T8 - Story Thread
 - T9 - Curiosity-Gap Opener
 - T10 - How-I Teardown Thread
+- T11 - First-Person Status Flex
+- T12 - Permission Reframe (caps-forward)
+- T13 - Copy-Swap Micro-Lesson
 - Engagement-goal split
 - Single post vs thread: pick the container first
 - Hook micro-rules (Threads-specific)
@@ -191,7 +194,9 @@ than on X.
 
 **Warning:** This is the most copied genre on Threads, so a generic version
 disappears. The specificity is the whole job. Do not reach for ALL CAPS to add
-intensity, it reads as trying too hard.
+intensity *to a relatable moment*, it reads as trying too hard. (Caps used as a
+deliberate permission-declaration frame are a different, working shape, see T12,
+so this warning is about manufactured intensity, not a blanket no-caps rule.)
 
 ---
 
@@ -301,16 +306,125 @@ needs a concrete instruction someone could execute tomorrow.
 
 ---
 
+## T11 - First-Person Status Flex
+
+**Goal: replies and reposts.** Single post. You state an identity or a milestone
+flatly, then pivot straight into a counterintuitive instruction. This was the
+single highest-performing shape in a 318-post Threads pull (July 2026), and it
+landed from unverified small accounts too, not only big names.
+
+```
+{Flat first-person status or milestone, stated plainly.}
+
+{The counterintuitive pivot or instruction it earns.}
+```
+
+Worked shapes (real corpus hooks):
+
+```
+I'm a millionaire. If you want to get rich, don't start a business. Do this instead:
+
+I'm now a $19,963.01 business owner at 19. Here is what actually moved the needle:
+```
+
+**Why:** The flat status line buys instant credibility, and the pivot converts
+it into something the reader can act on. It is distinct from T2 (this is
+identity, not a reframing measurement) and from T3 (it is a clean flex, no ugly
+cost). On Threads' aspirational-warm feed this register tops the feed.
+
+**Warning:** The status has to be real. A fabricated milestone that gets
+questioned in the replies costs more than it earned. And earn the pivot: a flex
+with no useful turn is just bragging and gets muted.
+
+---
+
+## T12 - Permission Reframe (caps-forward)
+
+**Goal: reposts and quotes.** Single post. You tell a specific identity group
+they do not need the conventional thing, then hand them permission to do the
+reframed thing instead. A caps-forward opener is legitimate here (it reads as
+conviction, not try-hard), which is the one place the T6 no-caps warning does
+not apply.
+
+```
+Most {identity group} DON'T NEED {conventional thing}.
+
+They need {the reframed permission}.
+```
+
+Worked shape (real corpus hook, from an unverified account, top-3 in the pull):
+
+```
+Most ADHD people DON'T NEED A STABLE CAREER. They need permission to turn their curiosity into money.
+```
+
+**Why:** Naming a specific in-group plus giving them permission is high
+repost-and-quote fuel: the reader reposts it as a flag for their own identity.
+The caps carry conviction on a declaration (unlike on a relatable moment, where
+they read as shouting).
+
+**Warning:** Keep it to a genuine in-group and a real reframe. Caps on a weak or
+generic claim just reads as yelling. One caps declaration per post, not a wall.
+
+---
+
+## T13 - Copy-Swap Micro-Lesson
+
+**Goal: reposts.** Single post. You teach one concrete before/after swap: the
+weak version, then the strong version. This was the most *repeatable* format in
+the pull, clearing solid engagement over and over from small teaching accounts.
+
+```
+{Tip label}: {the one principle in a line}.
+
+Instead of: "{weak version}"
+
+Say: "{strong version}"
+```
+
+Worked shape (real corpus hook):
+
+```
+Copywriting tip: write "you" sentences, not "we" sentences.
+
+Instead of: "We have a new collection."
+
+Say: "You'll love our new collection."
+```
+
+**Why:** A single, copyable before/after is pure reference-repost bait: the
+reader saves it because they can apply it in the next thing they write. It fits
+neither T5 (a list) nor T10 (a thread), and it is the lowest-follower-friendly
+format in the set because the value is self-evident, not reputation-dependent.
+
+**Warning:** The swap has to teach a real, transferable rule. A contrived
+before/after where the "after" is barely different reads as filler.
+
+---
+
 ## Engagement-goal split
 
 Pick the formula by what you want the post to earn, then narrow by topic.
 
 | Goal | Earned by | Formulas |
 |---|---|---|
-| **replies** | confessions, curiosity gaps, questions, takes worth talking about | T3 Build-in-Public, T9 Curiosity-Gap, T1 Warm Contrarian |
-| **reposts** | quotable opinions, lists, frameworks, hard numbers, repeatable how-tos | T2 Data-Point, T5 Mini-List, T7 Listicle-Thread, T10 How-I Teardown, T1 Warm Contrarian |
+| **replies** | confessions, curiosity gaps, questions, status pivots, takes worth talking about | T3 Build-in-Public, T9 Curiosity-Gap, T1 Warm Contrarian, T11 Status Flex |
+| **reposts** | quotable opinions, lists, frameworks, hard numbers, repeatable how-tos, copy swaps | T2 Data-Point, T5 Mini-List, T7 Listicle-Thread, T10 How-I Teardown, T1 Warm Contrarian, T13 Copy-Swap |
 | **likes** | relatable moments, emotional stories | T6 Relatable Cold-Open, T8 Story Thread |
-| **quotes** | value-add quote posts, story payoffs worth a take | T4 Quote-Post, T8 Story Thread |
+| **quotes** | value-add quote posts, story payoffs, permission reframes worth a take | T4 Quote-Post, T8 Story Thread, T12 Permission Reframe |
+
+**Corpus note (318-post Threads pull, July 2026, business/creator niches).** This
+feed skews markedly more *aspirational-warm* than X: money-milestone flexes,
+personal-brand advocacy, and mutual-support encouragement dominate, while
+X-style relatable shitposts (T6) and combative dunks barely register. The
+top-of-feed shapes were the status flex (T11), the era-death contrarian (a T1
+sub-variant: "The influencer era is dying. The personal brand era is taking
+over."), and the permission reframe (T12). Two caveats on the evidence: this pull
+was ranked by raw engagement (the search actor exposes no follower counts, so big
+accounts are over-represented) and n is small, so T11/T12/T13 are strong,
+unverified-account-anchored hypotheses to test, not settled law. Also note the
+number that travels on Threads is usually a *status/income* number ($238k, $19,963),
+not the measurement-reframe number (1.3s, 2.4x) that T2 leads with.
 
 ## Single post vs thread: pick the container first
 
@@ -347,6 +461,10 @@ Pick the formula by what you want the post to earn, then narrow by topic.
   words, not the label.
 - Stack hashtags. Threads allows ONE per post; a second is rejected by the
   platform.
+- Mistake a "let's connect" reply-farm lure for a hook. Posts like "If you're a
+  founder on Threads, let's connect!" rack up replies through a reply-to-be-seen
+  mechanic, not hook craft. The reply count is an artifact, not a signal, and
+  the format teaches nothing. Do not copy it or read its numbers as proof.
 - Put an external link in post 1 of something you want to reach (a link in the
   opener costs reach; drop it in a reply to your own post instead).
 - Quote-dunk on a small account. Add value or skip it.

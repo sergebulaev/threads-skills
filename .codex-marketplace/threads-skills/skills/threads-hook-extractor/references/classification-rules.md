@@ -1,13 +1,13 @@
 # Classification Rules
 
-How to map a Threads post or thread to one of the 10 formulas (T1-T10). Extract
+How to map a Threads post or thread to one of the 13 formulas (T1-T13). Extract
 features first, then score.
 
 ## Step 1: container
 
 | Signal | Container |
 |---|---|
-| One self-contained post, no thread tail | single post -> T1-T6 |
+| One self-contained post, no thread tail | single post -> T1-T6, T11-T13 |
 | Multiple connected posts, or a "see more" thread tail | thread -> T7-T10 |
 | A post with another post embedded above the text | quote post -> likely T4 |
 
@@ -21,6 +21,9 @@ features first, then score.
 | Quotes another post and adds a reframe or counter | T4 Quote-Post Add-Value |
 | A short numbered or bulleted list, one line per item, fits one post | T5 Mini-List Post |
 | A relatable shared moment with no setup, names a feeling | T6 Relatable Cold-Open |
+| A flat first-person status/milestone, then a counterintuitive pivot ("I'm a millionaire. Don't start a business.") | T11 First-Person Status Flex |
+| "Most {group} DON'T NEED {thing}, they need {permission}", often caps-forward | T12 Permission Reframe |
+| One before/after copy swap ("Instead of X, say Y") | T13 Copy-Swap Micro-Lesson |
 
 ## Step 3: thread features (T7-T10)
 
