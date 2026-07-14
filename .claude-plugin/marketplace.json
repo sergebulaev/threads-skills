@@ -12,7 +12,7 @@
       "name": "threads-skills",
       "source": "./",
       "description": "Bundle of 5 Threads (Meta) marketing skills for Claude Code and Codex with Threads-native hook formulas, single-post and multi-post thread writing, a unified humanizer (rewrite plus `--mode audit` pre-publish check), viral hook extraction, reply and quote drafting, and a weekly content planner. Posts and threads ship via Publora, which auto-splits long content into a connected multi-post thread.",
-      "version": "1.0.6",
+      "version": "1.0.7",
       "author": {
         "name": "Serge Bulaev",
         "url": "https://github.com/sergebulaev"

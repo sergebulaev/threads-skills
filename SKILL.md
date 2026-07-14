@@ -5,7 +5,7 @@ description: Plan, draft, audit, and publish posts and threads for Threads (Meta
 
 # Threads (Meta) Marketing Skills
 
-A bundle of 6 focused skills for Threads content ops in 2026. Each skill is
+A bundle of 7 focused skills for Threads content ops in 2026. Each skill is
 single-purpose, follows the draft then approval then publish pattern, and uses
 the [Publora API](https://publora.com) for posting Threads posts and threads.
 
@@ -20,6 +20,7 @@ register is conversational and the heaviest ranking signal is a real reply.
 - **Drafting a reply, or a quote post** -> use `threads-reply-drafter`
 - **Adapting content from another platform into a native Threads post or thread** -> use `threads-repurposer`
 - **Planning a week of Threads content** -> use `threads-content-planner`
+- **Auditing and rewriting your Threads profile (bio, name, pin, link)** -> use `threads-profile-optimizer`
 
 ## Core pattern
 
