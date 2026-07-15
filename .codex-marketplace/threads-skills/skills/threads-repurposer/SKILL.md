@@ -118,7 +118,7 @@ rules:
 
 ## Resources
 
-- `../../references/hook-formulas.md` - the 10 Threads formula skeletons to re-hook with (T1-T6 single, T7-T10 thread)
+- `../../references/hook-formulas.md` - the 13 Threads formula skeletons to re-hook with (T1-T6 and T11-T13 single, T7-T10 thread)
 - `../../references/algorithm-heuristics.md` - 2026 Threads ranking rules (signals, timing, limits)
 
 ## Related skills

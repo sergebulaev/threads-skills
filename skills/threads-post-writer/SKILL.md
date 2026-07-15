@@ -51,17 +51,18 @@ test, anchored on small-account examples, not yet follower-normalized.
 
 | Goal | Reach for |
 |---|---|
-| Replies | T3, T9, T1 |
-| Reposts | T2, T5, T7, T10 |
+| Replies | T3, T9, T1, T11 |
+| Reposts | T2, T5, T7, T10, T13 |
 | Likes | T6, T8 |
-| Quotes | T4, T8 |
+| Quotes | T4, T8, T12 |
 
 ## Pick the container first
 
 | If the idea is... | Container | Formulas |
 |---|---|---|
-| One claim, one number, one moment | single post | T1, T2, T3, T6 |
+| One claim, one number, one moment | single post | T1, T2, T3, T6, T11, T12 |
 | A scannable list, one line per item | single post | T5 |
+| One before/after copy swap | single post | T13 |
 | A list where each item needs teaching | thread | T7 |
 | A narrative with a build and a turn | thread | T8 |
 | A surprising result with a mechanism | thread | T9 |
@@ -153,7 +154,7 @@ rules:
 
 ## Resources
 
-- `../../references/hook-formulas.md` - all 10 Threads formula skeletons (T1-T6 single, T7-T10 thread)
+- `../../references/hook-formulas.md` - all 13 Threads formula skeletons (T1-T6 and T11-T13 single, T7-T10 thread)
 - `../../references/algorithm-heuristics.md` - 2026 Threads ranking rules (signals, timing, limits)
 - `references/single-post-checklist.md` - the per-post scrub and fit list
 - `references/thread-structure.md` - per-position pacing and the closer playbook

@@ -46,7 +46,7 @@ For a thread, the URL of the first post is best.
    paste the post or the full thread text. (If they later wire an Apify
    post-read actor, read it automatically.)
 3. **Detect the container.** One self-contained post, or a multi-post thread.
-4. **Classify against the 10 formulas** using features:
+4. **Classify against the 13 formulas** using features:
    - Single post: a warm contrarian claim (T1)? one hard number (T2)? a personal
      metric/confession (T3)? a quote post adding a layer (T4)? a one-line-per-item
      list (T5)? a relatable shared moment (T6)?
@@ -68,7 +68,7 @@ See `references/examples.md` for worked teardowns.
 
 ## Formulas reference
 
-See `../../references/hook-formulas.md` for the 10 canonical Threads formulas
+See `../../references/hook-formulas.md` for the 13 canonical Threads formulas
 with full skeletons and goal tags.
 
 ## Files
