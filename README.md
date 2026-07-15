@@ -130,7 +130,7 @@ Every skill shows you a draft first and waits for your OK. Nothing gets posted w
 |---|---|
 | **Post Writer** | Drafts a single Threads post or a multi-post thread using a 2026 Threads hook formula picked by goal: replies, reposts, likes, or quotes. Respects the 500-char limit (10,000 with a text attachment) and the one-hashtag cap |
 | **Humanizer** | Strips em dashes, AI vocabulary ("leverage", "delve", "harness"), rule-of-three lists, and uniform post rhythm. Bundles a `--mode audit` pre-publish check (500-char fit, hook, one-hashtag cap, link placement, warm tone) |
-| **Hook Extractor** | Reverse-engineers the hook from any viral Threads post or thread. Maps it to one of the 10 Threads formulas and returns a blank template you can fill |
+| **Hook Extractor** | Reverse-engineers the hook from any viral Threads post or thread. Maps it to one of the 13 Threads formulas and returns a blank template you can fill |
 | **Reply Drafter** | Drafts a reply or a value-add quote post for any Threads post URL. Decides reply vs quote post. A reply to another user is a separate post, so the draft comes back as a copy-paste block |
 | **Repurposer** | Turns content from another platform (LinkedIn post, X thread, blog, YouTube script, newsletter) into a native Threads post or thread: warms the tone, de-corporates it, refits to a short post or light thread, rebuilds the hook to clear the soft fold, strips off-platform artifacts, runs the humanizer |
 | **Content Planner** | Creates a weekly plan with a single-to-thread mix, per-day hooks, posting times, daily reply targets, and a goal-mix balance check |
@@ -217,7 +217,7 @@ Every skill follows these rules automatically:
 
 ## Cross-cutting references
 
-- [`references/hook-formulas.md`](references/hook-formulas.md) - the 10 Threads hook formulas with skeletons and goal tags
+- [`references/hook-formulas.md`](references/hook-formulas.md) - the 13 Threads hook formulas with skeletons and goal tags
 - [`references/algorithm-heuristics.md`](references/algorithm-heuristics.md) - 2026 Threads ranking signals, timing, and limits
 - [`references/voice-rules.md`](references/voice-rules.md) - the canonical voice rules every skill inherits
 
