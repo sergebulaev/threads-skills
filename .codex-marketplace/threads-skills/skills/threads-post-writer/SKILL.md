@@ -90,6 +90,8 @@ how the thread will land before approving.
 
 ## Steps
 
+**Voice profile first (all drafts).** If `../../references/voice-profile.md` has `filled: yes`, load it and match the user's voice fingerprint, hard rules, and CTA/link style throughout. If it is not filled, mention once that `threads-humanizer --mode profile` can learn their voice from a few posts, then proceed with the generic voice rules.
+
 1. **Gather inputs.** Topic, angle, any rough draft, target audience (builders /
    founders / a niche), and the goal (replies / reposts / likes / quotes).
 2. **Pick the container.** Use the container table. One claim or moment is a
