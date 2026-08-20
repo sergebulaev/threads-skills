@@ -203,6 +203,14 @@ If Publora returns a `postGroupId`, you're set. Cancel the post in the Publora d
 
 > **Note on replies:** a reply to another user's post is a separate post that Publora's `create-post` cannot target, so the Reply Drafter always returns its draft as a copy-paste block for you to post yourself. Single posts and your own threads auto-publish.
 
+## Optional: generate illustrations with Pixfaro
+
+A visual lifts a Threads post. The Post Writer can generate an illustration or a quote-card of your hook and attach it automatically when publishing. Without a key it drafts the image prompt and asks you to generate it yourself, so nothing breaks.
+
+[Pixfaro](https://pixfaro.com) is a single image API over multiple models (from `flux-schnell` at $0.004 to `gpt-5-image`). It composites your handle, brand color, or logo onto the image as a **pixel-exact overlay**, so a cheap base model still renders crisp text on a quote-card. Pull those brand fields from your [Voice & Brand Profile](references/voice-profile.md) (section 6) and every asset stays on-brand.
+
+Setup: drop `PIXFARO_TOKEN=pf_live_...` into your `.env`. The thin client at `lib/pixfaro_client.py` and the wrappers `lib.illustrate(prompt, kind="square")` / `lib.refine(image_id, instruction)` return a hosted URL that flows straight into `lib.publish(..., media_urls=[url])`. `refine` edits a prior image by its id (cheaper than regenerating); results carry `cost`, `balance_after`, and a `premium` flag so the skills never quietly spend on a pricey model.
+
 ## Voice rules
 
 Every skill follows these rules automatically:
