@@ -17,6 +17,7 @@ DEST = ROOT / ".codex-marketplace" / "threads-skills"
 PATHS_TO_COPY = [
     ".codex-plugin",
     "SKILL.md",
+    "README.md",
     "skills",
     "references",
     "lib",
