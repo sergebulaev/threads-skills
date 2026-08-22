@@ -1,6 +1,7 @@
 ---
 name: threads-repurposer
-description: Repurpose existing content into a native Threads post or thread. Take a LinkedIn post, X thread, blog, YouTube script, or newsletter and rewrite it for Threads: warm the tone, de-corporate it, refit to a short post or light thread, rebuild the hook to clear the soft fold, strip off-platform artifacts, run the humanizer, publish via Publora on approval. Not for writing from scratch (use threads-post-writer), auditing a draft (use threads-humanizer), or a hook teardown (use threads-hook-extractor).
+description: >-
+  Repurpose existing content into a native Threads post or thread. Take a LinkedIn post, X thread, blog, YouTube script, or newsletter and rewrite it for Threads: warm the tone, de-corporate it, refit to a short post or light thread, rebuild the hook to clear the soft fold, strip off-platform artifacts, run the humanizer, publish via Publora on approval. Not for writing from scratch (use threads-post-writer), auditing a draft (use threads-humanizer), or a hook teardown (use threads-hook-extractor).
 ---
 
 # Threads Repurposer
