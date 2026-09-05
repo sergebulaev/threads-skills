@@ -59,9 +59,12 @@ for reviewing an already-Threads draft (use `threads-humanizer`, plus
    "read more below", hashtag walls (Threads allows one hashtag max), @-handles
    that only exist elsewhere, and any "as I wrote on LinkedIn" throat-clearing. A
    repurposed post should not admit it was repurposed.
-8. **Humanizer pass.** Run `threads-humanizer`: strip em dashes, AI vocab,
-   rule-of-three, generic openers. Keep the user's real numbers and named
-   entities from the source. Vary post length across a thread.
+8. **Humanizer pass.** Run `threads-humanizer` V3: 2026 AI vocab by density,
+   em dashes above the cap (at most one per post, never swapped for a
+   period), stacked rule-of-three triads, generic openers and reveal bridges.
+   Leave the rhythm alone (uniform rhythm wins on Threads; never insert a
+   punch post for variance). Keep the user's real numbers and named entities
+   from the source.
 9. **Approval card.** Show: source -> Threads mapping (what became what), the
    container (single post or N-post thread with per-post char counts), formula
    used, warmed-tone note, primary goal. Confirm any `---` breaks.
@@ -111,7 +114,8 @@ rules:
   hashtag walls, off-platform @-handles).
 - Importing a cold, combative X voice instead of warming it.
 - ALL CAPS first line for intensity. Carry it with word choice.
-- Em dashes anywhere.
+- Em dashes above the cap (more than one in a post), or an em dash swapped for a period.
+- "The result?" / "Here's what" reveal bridges and staccato stacks added during the rewrite.
 - Rule-of-three lists without specifics.
 - "leverage", "fundamentally", "game-changer", "deep dive".
 - An external link in post 1 (offer a reply).

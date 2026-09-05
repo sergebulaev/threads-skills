@@ -110,9 +110,13 @@ how the thread will land before approving.
 5. **For a thread:** write post 1 first (the promise + open loop), front-load the
    strongest beat at position 1-2, target 4-7 posts for teaching/list threads,
    make each post stand alone, and close on the most quotable line plus one ask.
-6. **Humanizer pass.** Strip em dashes, AI vocab, rule-of-three, generic openers.
-   Add a specific number or named entity where the claim allows it. Vary post
-   length across a thread.
+6. **Humanizer pass.** Scrub 2026 AI vocab by density, cap em dashes (at
+   most one per post, never swap one for a period), break stacked triads,
+   generic openers and reveal bridges. Leave the rhythm alone: uniform rhythm
+   wins on Threads at every length, so never insert a punch post or chop a
+   sentence for variance. Add an odd-precision number with a named referent
+   or a named entity where the claim allows it. Canonical rules:
+   `threads-humanizer` V3.
 7. **Optional audit.** Invoke `threads-humanizer --mode audit` for a pass-fail
    check.
 8. **Approval card.** Show: formula used, full draft (thread shown post-by-post
@@ -143,7 +147,9 @@ rules:
 ## Anti-patterns (skill will refuse)
 
 - ALL CAPS first line for intensity. Carry intensity with word choice.
-- Em dashes anywhere.
+- Em dashes above the cap (more than one in a post), or an em dash swapped for a period.
+- "Here's what / here's how" or "Stop X, start Y" as the opener; "The result?" as a reveal.
+- Announced candor ("Let me be honest", "not gonna lie") with no dated fact behind it.
 - "Unpopular opinion:" on a take that is actually popular.
 - Padding a one-line idea into a thread.
 - Rule-of-three lists without specifics.

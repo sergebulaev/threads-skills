@@ -35,8 +35,9 @@ For a thread, the URL of the first post is best.
 - **Why it worked** psychologically and algorithmically
 - **Blank template** with `{slot}` markers matched to the original, ready for the
   user's topic
-- **Cautions:** anything in the original that would fail a 2026 audit (em dashes,
-  AI vocab, 2+ hashtags, link in post 1, a cold X tone)
+- **Cautions:** anything in the original that would fail a 2026 audit (more
+  than one em dash in a post, an AI-vocab cluster, 2+ hashtags, link in post 1,
+  a cold X tone)
 
 ## Steps
 

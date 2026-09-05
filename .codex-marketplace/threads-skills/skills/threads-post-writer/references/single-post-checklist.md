@@ -11,10 +11,23 @@ Run every single-post draft through this before showing the approval card.
 
 ## Voice scrub
 
-- [ ] No em dashes (`—`), en dashes (`–`), or double dashes (`--`). Use `..`.
-- [ ] No AI vocab: leverage, utilize, streamline, harness, delve, foster,
-      fundamentally, essentially, game-changer, deep dive.
-- [ ] No rule-of-three triplet unless each item is concrete.
+- [ ] At most one em dash (`—`) in the post, and none if it reads fine
+      without it. Replace the excess with a comma, colon or `..`, never a
+      period. No en dashes (`–`) between clauses, no double dashes (`--`).
+- [ ] No cluster of 2026 AI vocab (3+ markers in one post = rewrite the
+      post; one is fine): significant, crucial, notably, comprehensive,
+      insights, robust, leverage, foster, landscape, nuanced, streamline,
+      elevate, empower, fundamentally, essentially, ultimately; plus "-ing"
+      clause openers and "the X-tion of" nominalisations.
+- [ ] No reveal bridge ("The result?", "Here's what", "Stop X, start Y") and
+      no "It's not X, it's Y".
+- [ ] No sincerity announcement ("let me be honest", "not gonna lie",
+      "unpopular opinion:" on a popular take) and no hedge the author did not
+      write.
+- [ ] No staccato stack ("Short. Punchy. Done.", "No X. No Y. Just Z.") and
+      no one-word line for drama. Do not chop a sentence to add punch; uniform
+      rhythm wins on Threads.
+- [ ] At most one rule-of-three triplet, with concrete items.
 - [ ] Names capitalized (Stripe, Claude, Vercel). Lowercase sentence starts are
       fine if the voice calls for it.
 - [ ] Warm and conversational, not a transplanted X dunk.

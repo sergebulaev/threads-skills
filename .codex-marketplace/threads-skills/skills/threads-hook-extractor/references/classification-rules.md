@@ -57,8 +57,8 @@ Infer what the original optimized for from its shape and its visible metrics:
 ## Step 6: source audit
 
 Flag, do not copy:
-- em dashes, en dashes, double dashes
-- AI vocab (leverage, fundamentally, delve, etc.)
+- more than one em dash in a post; en dashes between clauses; double dashes
+- an AI vocab cluster (3+ markers in one post: leverage, fundamentally, significant, etc.)
 - 2+ hashtags (Threads rejects the second) or mid-sentence hashtags
 - an external link in post 1
 - a first line that does not stand alone

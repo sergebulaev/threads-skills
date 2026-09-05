@@ -167,9 +167,9 @@ Threads weights replies even more heavily than X does.
 ## Pre-publish checklist
 
 - [ ] First line stops the scroll on its own (the feed truncates with "more").
-- [ ] No em dashes (`—`), en dashes (`–`), or double dashes (`--`).
-- [ ] No AI vocabulary blacklist words (leverage, fundamentally, delve, etc.).
-- [ ] At least one specific number where the claim allows it.
+- [ ] At most one em dash (`—`) per post (never swap one for a period); no en dashes (`–`) between clauses or double dashes (`--`).
+- [ ] No AI vocabulary cluster (3+ markers in one post: leverage, fundamentally, significant, etc.).
+- [ ] At least one odd-precision number with a named referent where the claim allows it.
 - [ ] No external link in post 1 (move it to a reply or post 2+).
 - [ ] 0 or 1 hashtag (Threads allows only one), at the end.
 - [ ] 0-2 emoji, and only if each earns its place. None on a serious take.

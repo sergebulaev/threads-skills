@@ -47,17 +47,28 @@ Never stack all three asks. Never end on "that's it" or "hope this helps".
 ## Per-post scrub (apply to every post)
 
 - [ ] Under 500 chars.
-- [ ] No em dashes, en dashes, or double dashes. Use `..`.
-- [ ] No AI vocab (leverage, fundamentally, delve, harness, etc.).
+- [ ] At most one em dash per post (replace the excess with a comma, colon
+      or `..`, never a period). No en dashes between clauses, no double dashes.
+- [ ] No cluster of 2026 AI vocab (3+ markers in one post = rewrite it; one
+      is fine): significant, crucial, notably, comprehensive, insights,
+      robust, leverage, foster, landscape, nuanced, streamline, elevate,
+      fundamentally, essentially; "-ing" clause openers; nominalisations.
+- [ ] No reveal bridge ("The result?", "Here's what"), no "It's not X, it's
+      Y", no sincerity opener ("not gonna lie", "let me be honest").
 - [ ] Stands alone if read in isolation.
-- [ ] At least one concrete detail (number, name, example) in the body posts.
+- [ ] At least one concrete detail (a number with a referent, a name, an
+      example) in the body posts.
 - [ ] At most one hashtag anywhere in the post.
 
-## Length variation
+## Rhythm across the thread
 
-A thread where every post is the same length reads as machine-made. Mix it: a
-3-word punch post next to a fuller 420-char teaching post. The variation is
-itself a human signal.
+Let post length follow the material. A teaching post runs long because it
+teaches; a transition runs short because it transitions. Do not engineer
+variance on top of that: on Threads uniform rhythm wins at every length in our
+corpus (Spearman -0.31 between sentence-length variance and engagement), and a
+manufactured seesaw with a 3-word "punch post" dropped in for rhythm is the
+humanizer fingerprint. A thread of similar-length posts is fine. Never insert
+a punch post, never pad a short one, never alternate long/short on purpose.
 
 ## Hand-splitting with `---`
 

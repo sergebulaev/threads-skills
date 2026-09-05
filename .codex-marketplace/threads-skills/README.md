@@ -142,7 +142,7 @@ Every skill shows you a draft first and waits for your OK. Nothing gets posted w
 | Skill | What it does |
 |---|---|
 | **Post Writer** | Drafts a single Threads post or a multi-post thread using a 2026 Threads hook formula picked by goal: replies, reposts, likes, or quotes. Respects the 500-char limit (10,000 with a text attachment) and the one-hashtag cap |
-| **Humanizer** | Strips em dashes, AI vocabulary ("leverage", "delve", "harness"), rule-of-three lists, and uniform post rhythm. Bundles a `--mode audit` pre-publish check (500-char fit, hook, one-hashtag cap, link placement, warm tone) |
+| **Humanizer** | Removes the AI tells human readers react to: 2026 AI vocabulary scored by density per post, reveal bridges, staccato fragment stacks, stacked triads, performed sincerity; caps em dashes at one per post instead of banning them, and never forces rhythm (uniform rhythm wins on Threads at every length). Does not promise to beat detectors (no edit reliably does). Bundles a `--mode audit` pre-publish check (500-char fit, hook, one-hashtag cap, link placement, warm tone) |
 | **Hook Extractor** | Reverse-engineers the hook from any viral Threads post or thread. Maps it to one of the 13 Threads formulas and returns a blank template you can fill |
 | **Reply Drafter** | Drafts a reply or a value-add quote post for any Threads post URL. Decides reply vs quote post. A reply to another user is a separate post, so the draft comes back as a copy-paste block |
 | **Repurposer** | Turns content from another platform (LinkedIn post, X thread, blog, YouTube script, newsletter) into a native Threads post or thread: warms the tone, de-corporates it, refits to a short post or light thread, rebuilds the hook to clear the soft fold, strips off-platform artifacts, runs the humanizer |
@@ -215,9 +215,9 @@ Setup: drop `PIXFARO_TOKEN=pf_live_...` into your `.env`. The thin client at `li
 
 Every skill follows these rules automatically:
 
-1. No em dashes. Biggest AI tell in 2026.
+1. Em dashes capped at one per post. The character stopped being a tell in 2026; the density is.
 2. Capitalize names. Always. Lowercase a brand reads as careless.
-3. No AI vocabulary: "leverage", "fundamentally", "streamline", "harness", "delve", "unlock", "foster".
+3. No AI vocabulary clusters. One 2026 marker ("leverage", "significant", "streamline", "foster") in a post is English; three in one post reads as AI and gets the post rewritten.
 4. Specific numbers beat adjectives. "2.4x" beats "way better".
 5. One idea per post. The first line carries everything (the feed truncates with "more").
 6. 500 chars per post. 0-1 hashtag (Threads allows only one), 0-2 emoji.

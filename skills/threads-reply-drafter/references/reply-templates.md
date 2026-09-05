@@ -1,8 +1,9 @@
 # Threads Reply and Quote-Post Templates
 
 Five shapes. All stay under 500 chars with at most one hashtag. Pick by what the
-counterpart said and what you want the reply to do. No em dashes in the fill-in
-lines; use `..` or a period. Keep it warm, this is Threads.
+counterpart said and what you want the reply to do. Em dashes capped (a reply
+is short, so at most one, and none if it reads fine without); use `..` for
+soft pauses. Keep it warm, this is Threads.
 
 ## R1 - Answer-Their-Question
 

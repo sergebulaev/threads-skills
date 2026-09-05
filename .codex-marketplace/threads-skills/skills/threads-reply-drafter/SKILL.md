@@ -55,8 +55,12 @@ account; add value or skip it. Keep the tone warm, this is Threads.
 4. **Draft 1-3 variants** using `references/reply-templates.md`. If the
    counterpart asked a question, answer it plainly with one real detail. If they
    pushed back, concede then sharpen. Keep it warm.
-5. **Humanizer pass.** Strip em dashes, AI vocab. Keep each variant under 500
-   chars and one hashtag max. One idea per reply.
+5. **Humanizer pass.** Scrub 2026 AI vocab by density, cap em dashes (at
+   most one per reply, never swap one for a period), strip reveal bridges and
+   sincerity openers ("not gonna lie", "let me be honest"). Leave the rhythm
+   alone; never insert a fragment for punch. Keep each variant under 500
+   chars and one hashtag max. One idea per reply. Canonical rules:
+   `threads-humanizer` V3.
 6. **Approval card.** Show the conversation context, the variants, the
    reply-vs-quote recommendation, and the target URL.
 7. **On approval.** Call `lib.publish(kind="reply", draft_text=<approved>,

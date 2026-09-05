@@ -6,8 +6,12 @@
 > In today's fast-paced world, founders must leverage AI tools to fundamentally
 > streamline their workflow — it's a game-changer.
 
-Tells: "in today's fast-paced world", leverage, fundamentally, streamline, em
-dash, game-changer, zero specifics, no first line that lands alone.
+Tells: the post scores 4 markers ("in today's fast-paced world", leverage,
+fundamentally, streamline) plus "game-changer", so the whole post is rewritten
+rather than word-swapped; zero specifics; no first line that lands alone. The
+single em dash was under the cap (one per post) and was not a tell on its own;
+it went only because the sentence around it was rewritten. It was not replaced
+with a period.
 
 **After:**
 > most founders use AI to write faster.
@@ -16,8 +20,9 @@ dash, game-changer, zero specifics, no first line that lands alone.
 > you using it for?
 
 Why it is better: a complete warm-contrarian (T1) take, lands in the first line,
-no AI vocab, no em dash, one clear idea, and a soft question that invites the
-reply Threads rewards.
+no marker cluster, one clear idea, and a soft question that invites the reply
+Threads rewards. Pass 2 left the rhythm alone (uniform rhythm wins on Threads).
+Pass 4: nothing was inserted, no hedge, no "not gonna lie" frame.
 
 ## Example 2 - Post over 500 chars
 

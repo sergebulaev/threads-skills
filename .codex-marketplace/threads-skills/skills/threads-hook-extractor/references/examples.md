@@ -17,7 +17,7 @@
 - **Primary goal:** reposts, with replies as a strong second from the invite.
 - **Why it worked:** no setup, lands in the first line, the claim is defensible,
   and the closing question fits Threads' conversation-first register.
-- **Source audit:** clean. No em dashes, no AI vocab, no hashtags, warm tone.
+- **Source audit:** clean. Em dashes under the cap, no AI vocab cluster, no hashtags, warm tone.
 
 **Blank template for your topic:**
 ```
@@ -45,7 +45,8 @@ the ones who {win} {contrarian move with a specific detail}. {warm invite to tal
 - **Why it worked:** the authority number earns trust, the open loop earns the
   tap, and front-loading the strongest mistakes keeps tap-through high.
 - **Source audit:** clean opener. Check the body posts for an external link (move
-  any to a reply) and uniform length.
+  any to a reply) and for staccato stacks; similar post lengths are fine on
+  Threads.
 
 **Blank template for your topic:**
 ```

@@ -95,7 +95,7 @@ rules:
   truncated bio.
 - Treat the connected Instagram as part of the profile, not a separate thing. A
   dormant or mismatched IG is a discovery leak worth flagging.
-- No em dashes. No "leverage", "fundamentally", "game-changer".
+- At most one em dash in the bio (a short bio rarely needs one). No "leverage", "fundamentally", "game-changer".
 
 ## Related skills
 
