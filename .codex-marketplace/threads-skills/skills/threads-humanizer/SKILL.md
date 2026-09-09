@@ -1,6 +1,6 @@
 ---
 name: threads-humanizer
-description: 'Remove the AI tells human readers react to in a Threads post or thread: 2026 vocabulary by density, reveal bridges, staccato stacks, stacked triads, performed sincerity; caps em dashes at one per post, never forces rhythm. Includes --mode audit (500-char fit, hook, one-hashtag cap, link placement, warm tone) and --mode profile. Not for beating AI detectors (no edit reliably does). Not for writing from scratch (use threads-post-writer). Keywords: humanize, de-AI Threads post, audit before posting.'
+description: "Remove the AI tells human readers react to in a Threads post or thread: 2026 vocabulary by density, reveal bridges, staccato stacks, stacked triads, performed sincerity; caps em dashes at one per post, never forces rhythm. Includes --mode audit (500-char fit, hook, one-hashtag cap, link placement, warm tone) and --mode profile. Not for beating AI detectors (no edit reliably does). Not for writing from scratch (use threads-post-writer). Keywords: humanize, de-AI Threads post, audit before posting."
 ---
 
 # Threads Humanizer V3

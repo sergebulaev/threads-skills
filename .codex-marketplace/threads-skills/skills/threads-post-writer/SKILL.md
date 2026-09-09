@@ -1,6 +1,6 @@
 ---
 name: threads-post-writer
-description: Draft a single Threads post or a multi-post thread using a 2026 Threads hook formula (warm contrarian, data-point, build-in-public, quote-post, mini-list, relatable, listicle, story, curiosity-gap, how-I teardown), picked by goal (replies, reposts, likes, quotes). Respects the 500-char limit and one-hashtag cap, runs the humanizer pass, and publishes via Publora, which auto-splits long content into a thread. Not for auditing a draft (use threads-humanizer) or hook teardown (use threads-hook-extractor).
+description: "Draft a single Threads post or a multi-post thread using a 2026 Threads hook formula (warm contrarian, data-point, build-in-public, quote-post, mini-list, relatable, listicle, story, curiosity-gap, how-I teardown), picked by goal (replies, reposts, likes, quotes). Respects the 500-char limit and one-hashtag cap, runs the humanizer pass, and publishes via Publora, which auto-splits long content into a thread. Not for auditing a draft (use threads-humanizer) or hook teardown (use threads-hook-extractor)."
 ---
 
 # Threads Post Writer

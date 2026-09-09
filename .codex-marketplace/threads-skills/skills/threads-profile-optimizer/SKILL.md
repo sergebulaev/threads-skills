@@ -1,6 +1,6 @@
 ---
 name: threads-profile-optimizer
-description: 'Audit and rewrite a Threads (Meta) profile end-to-end for 2026: profile photo, name with a searchable keyword, @handle, bio (150 chars, warm and specific), link, pinned post, and the connected-Instagram cross-pull that feeds Threads discovery. Triggers on "review my Threads profile", "fix my Threads bio", "what to pin on Threads", and "profile audit". Turns a default profile into one that converts visitors into followers. Not for writing posts (use threads-post-writer).'
+description: "Audit and rewrite a Threads (Meta) profile end-to-end for 2026: profile photo, name with a searchable keyword, @handle, bio (150 chars, warm and specific), link, pinned post, and the connected-Instagram cross-pull that feeds Threads discovery. Triggers on \"review my Threads profile\", \"fix my Threads bio\", \"what to pin on Threads\", and \"profile audit\". Turns a default profile into one that converts visitors into followers. Not for writing posts (use threads-post-writer)."
 ---
 
 # Threads Profile Optimizer

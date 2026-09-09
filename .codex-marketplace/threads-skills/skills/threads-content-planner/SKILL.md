@@ -1,6 +1,6 @@
 ---
 name: threads-content-planner
-description: Generate a weekly Threads (Meta) content plan from a theme, audience, and content pillars. Produces per-day recommendations (single post vs thread, Threads hook formula, angle, posting time, primary goal), a single-to-thread mix, daily reply and quote-post targets, and a goal-mix balance check across replies, reposts, likes, and quotes. Use when the user wants to plan a week of Threads content instead of ad-hoc posting. Not for drafting one post or thread (use threads-post-writer).
+description: "Generate a weekly Threads (Meta) content plan from a theme, audience, and content pillars. Produces per-day recommendations (single post vs thread, Threads hook formula, angle, posting time, primary goal), a single-to-thread mix, daily reply and quote-post targets, and a goal-mix balance check across replies, reposts, likes, and quotes. Use when the user wants to plan a week of Threads content instead of ad-hoc posting. Not for drafting one post or thread (use threads-post-writer)."
 ---
 
 # Threads Content Planner

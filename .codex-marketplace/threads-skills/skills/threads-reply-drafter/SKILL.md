@@ -1,6 +1,6 @@
 ---
 name: threads-reply-drafter
-description: Draft a reply or a value-add quote post for a specific Threads (Meta) post from its URL. Use to reply in a conversation, answer a creator, or quote-post with added value. Parses the post URL, reads pasted context, decides reply vs quote post, and drafts 1-3 warm variants in your voice. A reply to another user is a separate post and Publora cannot target it, so the draft is returned as a copy-paste block to post yourself. Not for top-level posts (use threads-post-writer).
+description: "Draft a reply or a value-add quote post for a specific Threads (Meta) post from its URL. Use to reply in a conversation, answer a creator, or quote-post with added value. Parses the post URL, reads pasted context, decides reply vs quote post, and drafts 1-3 warm variants in your voice. A reply to another user is a separate post and Publora cannot target it, so the draft is returned as a copy-paste block to post yourself. Not for top-level posts (use threads-post-writer)."
 ---
 
 # Threads Reply Drafter
