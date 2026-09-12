@@ -34,6 +34,7 @@ from collections import OrderedDict
 from typing import Any, Optional
 
 import requests
+from ._env import load_env
 
 SEARCH_ACTOR = "igview-owner~threads-search-scraper"
 PROFILE_ACTOR = "apify~threads-profile-api-scraper"
@@ -131,6 +132,7 @@ def _profile(d: dict) -> dict:
 
 class ApifyClient:
     def __init__(self, token: Optional[str] = None, timeout: int = 180):
+        load_env()
         self.token = token or os.environ.get("APIFY_TOKEN")
         self.timeout = timeout
         self._cache: "OrderedDict[str, tuple[float, Any]]" = OrderedDict()
