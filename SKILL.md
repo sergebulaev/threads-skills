@@ -22,6 +22,7 @@ register is conversational and the heaviest ranking signal is a real reply.
 - **Planning a week of Threads content** -> use `threads-content-planner`
 - **Auditing and rewriting your Threads profile (bio, name, pin, link)** -> use `threads-profile-optimizer`
 - **Reading your audience and niche from real data (top posts for a query, a profile's follower count and recent posts)** -> use `threads-audience-insights`
+- **Working out what you actually have to say, or having nothing concrete for a draft to use** -> use `threads-humanizer --mode interview`. It interviews you and fills the Story Bank every writing skill reads before drafting.
 
 ## Core pattern
 
@@ -132,6 +133,8 @@ distinction.
 
 - [Publora API docs](https://docs.publora.com) - endpoint reference for the publishing layer
 - `lib/publora_client.py` - thin Python client used by the writing skill
+- `references/story-bank.md` - what you have to say, filled by the interview
+- `references/voice-profile.md` - how you sound, filled by `--mode profile`
 - `lib/url_parser.py` - Threads URL to handle/post-id parser
 
 ## Acknowledgments
