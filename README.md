@@ -154,7 +154,7 @@ Every skill shows you a draft first and waits for your OK. Nothing gets posted w
 
 Threads caps a post at **500 characters** (10,000 if you attach the longer-form text). For anything longer, you build a multi-post thread. Doing that on the native Threads API means creating a container for post 1, publishing it, then creating each next post with a `reply_to_id` pointing at the previous one, and handling partial failures.
 
-This bundle hands the whole chain to [Publora](https://publora.com). You write the thread as one block (or split it with `---`), and Publora auto-splits it into a connected multi-post thread at paragraph then sentence boundaries, and posts it in one call. Unlike X, Threads does not add `(1/N)` markers by default. The Post Writer skill uses this on approval.
+This bundle hands the whole chain to [Publora](https://publora.com/?utm_source=github&utm_medium=readme&utm_campaign=threads-skills). You write the thread as one block (or split it with `---`), and Publora auto-splits it into a connected multi-post thread at paragraph then sentence boundaries, and posts it in one call. Unlike X, Threads does not add `(1/N)` markers by default. The Post Writer skill uses this on approval.
 
 ## Optional: auto-post with Publora
 
@@ -162,13 +162,13 @@ By default, the skills draft content for you to copy-paste into Threads. If you 
 
 ### What is Publora?
 
-[Publora](https://publora.com) is a publishing API that turns one `create-post` call into a full Threads thread (and can cross-post the same content to X, LinkedIn, Instagram, and more).
+[Publora](https://publora.com/?utm_source=github&utm_medium=readme&utm_campaign=threads-skills) is a publishing API that turns one `create-post` call into a full Threads thread (and can cross-post the same content to X, LinkedIn, Instagram, and more).
 
 Publora also ships [official MCP skills](https://github.com/publora/skills) (`npx skills add publora/skills`): one skill per platform, covering the publish side only. This bundle is the layer above them, adding the reading, the writing craft and the approval flow.
 
 ### Setup (2 minutes)
 
-**Step 1.** Sign up at https://app.publora.com/signup (free)
+**Step 1.** Sign up at https://app.publora.com/signup?utm_source=github&utm_medium=readme&utm_campaign=threads-skills (free)
 
 **Step 2.** Connect Threads: click **Channels** in the left sidebar, then **Add Channel**, pick **Threads**, authorize.
 
@@ -330,7 +330,7 @@ LinkedIn flattens reply threads to 2 levels and needs the top-level comment URN 
 
 ## References
 
-- [Publora API docs](https://docs.publora.com) - endpoint reference for the publishing layer
+- [Publora API docs](https://docs.publora.com/?utm_source=github&utm_medium=readme&utm_campaign=threads-skills) - endpoint reference for the publishing layer
 - [Threads API (Meta for Developers)](https://developers.facebook.com/docs/threads/) - the official Threads Graph API behind the 2026 heuristics
 
 ## Who builds this
@@ -343,7 +343,7 @@ This repo is the thin top layer of that stack, open-sourced. The engine undernea
 
 ## License
 
-MIT. Powered by [Publora](https://publora.com).
+MIT. Powered by [Publora](https://publora.com/?utm_source=github&utm_medium=readme&utm_campaign=threads-skills).
 
 ## Related open-source skill bundles
 
